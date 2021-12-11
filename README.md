@@ -1,6 +1,6 @@
 # stocks-analysis
 
-# Kickstarting with Excel
+# VBA of Wall Street
 
 ## Overview of Project
 

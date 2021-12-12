@@ -51,4 +51,4 @@ As you can see the original code takes about 7x longer to execute than the new r
 
 - How do those pros and cons apply to the refactoring the original VBA script?
 
-   As you can see from the images the original code took 0.7 seconds to run 12 tickers and the refactored code took 0.15 
+   As you can see from the images the original code took 0.76 seconds to run 12 tickers and the refactored code took ~0.15 seconds. If we where to multiply the amount of tickers by 100 then 1000 the original code would take about 1 minute and 15 seconds for 100 times more, and about 12.6 minutes for 100 times more tickers. While the refactored code would take 15 seconds for 100 times and 2.5 minutes for 1000 times more. This is very big improvement to the execution when starting to deal with large amounts of data.
